@@ -5,7 +5,7 @@ const BookingRow = ({ bookings, handleDelete, hanleConfirm }) => {
 
   const { title, img, date, price, _id, statue } = bookings;
 
-  console.log(statue);
+
 
   return (
 

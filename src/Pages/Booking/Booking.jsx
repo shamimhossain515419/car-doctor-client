@@ -9,7 +9,7 @@ const Booking = () => {
      
 
      const loadData = useLoaderData();
-     console.log(loadData);
+    
      const { title, price,_id ,img} = loadData
      const handleBookService = (event) => {
           event.preventDefault();

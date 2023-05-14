@@ -15,7 +15,7 @@ const { LogOut, user ,loader } = useContext(AuthContext);
                alert("LogOut success")
              }
              alert("LogOut success")
-            
+             
           })
           .catch(error=>{
                 console.log(error.massage);
